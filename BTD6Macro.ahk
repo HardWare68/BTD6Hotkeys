@@ -1,7 +1,6 @@
 ﻿;Arrays of points for autofarming
 points := []
 
-
 ;Right is miscellaneous options
 Right & NumpadIns:: SendInput {Space} ;Start round
 Right & NumpadDel:: SendInput {+Space}
@@ -21,6 +20,11 @@ Up & NumpadSub:: SendInput {-}
 Up & NumpadEnter:: SendInput {=}
 
 NumPadEnter:: SendInput {Click Left} ;Perform a click
+
+;Upgrade path hotkeys
+NumpadEnd:: SendInput {,}
+NumpadDown:: SendInput {.}
+NumPadPgDn:: SendInput {/}
 
 ;Mouse movement
 Right:: MouseMove 1, 0,,R
