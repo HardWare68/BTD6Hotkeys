@@ -37,6 +37,9 @@ RCtrl & Up:: MouseMove 0, -10,,R
 RCtrl & Left:: MouseMove -10, 0,,R
 Rctrl & Down:: MouseMove 0, 10,,R
 
+;Suspend hotkeys
+Shift & Esc:: Suspend
+
 ; /!\ AUTO-FARM GOODIES /!\
 
 ;Add a point to the list
