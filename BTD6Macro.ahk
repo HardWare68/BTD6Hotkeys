@@ -3,7 +3,7 @@ points := []
 
 ;Right is miscellaneous options
 Right & NumpadIns:: SendInput {Space} ;Start round
-Right & NumpadDel:: SendInput {+Space}
+Right & NumpadDel:: Send "+{Space}" ;start round for races
 
 ;Up is used for activating abilites
 Up & NumpadEnd:: SendInput {1}
