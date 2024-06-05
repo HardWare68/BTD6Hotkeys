@@ -1,4 +1,9 @@
-﻿;Arrays of points for autofarming
+﻿;only hotkey on bloons
+;this is how it works for AHK v1
+;v2, do #HotIf instead
+#If WinActive("BloonsTD6")
+
+;Arrays of points for autofarming
 points := []
 
 ;Right is miscellaneous options
@@ -67,3 +72,6 @@ for i, point in points
     MouseMove, point.x, point.y, 10
 }
 return
+
+;end hotif
+#If
